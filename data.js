@@ -1,6 +1,6 @@
 window.MEME_DOC = {
-  "updated": "2026-11-08 22:30:39",
-  "total": 457,
+  "updated": "2026-11-08 23:02:22",
+  "total": 463,
   "categories": [
     {
       "key": "meme",
@@ -135,6 +135,16 @@ window.MEME_DOC = {
           "note": "一个 @ 时：发送者 + 对方；两个 @ 时：第一个 + 第二个",
           "key": "always_like",
           "preview": "previews/always_like.jpg"
+        },
+        {
+          "cmd": "安安说",
+          "aliases": [],
+          "kind": "文字表情",
+          "params": "文字1",
+          "usage": "安安说 文字1",
+          "note": "文字模板；按顺序填写 1 段文字",
+          "key": "anan_say",
+          "preview": "previews/anan_say.jpg"
         },
         {
           "cmd": "防诱拐",
@@ -743,6 +753,16 @@ window.MEME_DOC = {
           "preview": "previews/dont_touch.jpg"
         },
         {
+          "cmd": "哆啦A梦说",
+          "aliases": [],
+          "kind": "文字表情",
+          "params": "文字1",
+          "usage": "哆啦A梦说 文字1",
+          "note": "文字模板；按顺序填写 1 段文字",
+          "key": "doraemon_say",
+          "preview": "previews/doraemon_say.jpg"
+        },
+        {
           "cmd": "doro臭美",
           "aliases": [],
           "kind": "图片表情",
@@ -781,6 +801,16 @@ window.MEME_DOC = {
           "note": "把 @ 的人的头像/图片套进表情",
           "key": "eat",
           "preview": "previews/eat.jpg"
+        },
+        {
+          "cmd": "爱莉举牌",
+          "aliases": [],
+          "kind": "文字表情",
+          "params": "文字1",
+          "usage": "爱莉举牌 文字1",
+          "note": "文字模板；按顺序填写 1 段文字",
+          "key": "elysia_holdsign",
+          "preview": "previews/elysia_holdsign.jpg"
         },
         {
           "cmd": "换位思考",
@@ -1219,6 +1249,16 @@ window.MEME_DOC = {
           "preview": "previews/grab.jpg"
         },
         {
+          "cmd": "双手抓",
+          "aliases": [],
+          "kind": "图片表情",
+          "params": "@一个人 / QQ号",
+          "usage": "双手抓 @某人",
+          "note": "把 @ 的人的头像/图片套进表情",
+          "key": "grab_both_hands",
+          "preview": "previews/grab_both_hands.jpg"
+        },
+        {
           "cmd": "咣",
           "aliases": [],
           "kind": "图片表情",
@@ -1267,6 +1307,18 @@ window.MEME_DOC = {
           "note": "把 @ 的人的头像/图片套进表情",
           "key": "haruhi_raise",
           "preview": "previews/haruhi_raise.jpg"
+        },
+        {
+          "cmd": "头槌",
+          "aliases": [
+            "顶头"
+          ],
+          "kind": "图片表情",
+          "params": "@一个人 / QQ号",
+          "usage": "头槌 @某人",
+          "note": "把 @ 的人的头像/图片套进表情",
+          "key": "head_butt",
+          "preview": "previews/head_butt.jpg"
         },
         {
           "cmd": "高低情商",
@@ -2521,6 +2573,16 @@ window.MEME_DOC = {
           "note": "把 @ 的人的头像/图片套进表情",
           "key": "pound",
           "preview": "previews/pound.jpg"
+        },
+        {
+          "cmd": "表扬",
+          "aliases": [],
+          "kind": "文字表情",
+          "params": "文字1",
+          "usage": "表扬 文字1",
+          "note": "文字模板；按顺序填写 1 段文字",
+          "key": "praise",
+          "preview": "previews/praise.jpg"
         },
         {
           "cmd": "打印",
@@ -4580,7 +4642,7 @@ window.MEME_DOC = {
           "preview": "previews/do_grass.jpg"
         }
       ],
-      "count": 429
+      "count": 435
     },
     {
       "key": "view",
