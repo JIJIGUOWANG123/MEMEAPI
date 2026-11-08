@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>关于 & 致谢 · MemeAPI 接口说明</title>
+<link rel="icon" href="assets/logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <img src="assets/logo.png" alt="MemeAPI" class="logo">
+      <div><div class="brand-title">MemeAPI</div><div class="brand-sub">接口说明</div></div>
+    </div>
+    <nav class="nav">
+      <a class="nav-link" href="index.html">← 返回接口列表</a>
+      <a class="nav-link active" href="about.html">关于 &amp; 致谢</a>
+    </nav>
+    <div class="sidebar-foot">
+      <div class="updated">MemeAPI 本地渲染服务</div>
+    </div>
+  </aside>
+  <main class="main">
+    <header class="hero">
+      <div>
+        <h1>关于 <span>&amp; 致谢</span></h1>
+        <p class="sub">MemeAPI 的本地表情生成能力，来自开源社区。这里列出主要来源与致谢。</p>
+      </div>
+      <button id="theme" class="theme" title="切换深浅色">◐</button>
+    </header>
+
+    <div class="about-wrap">
+      <section class="about-hero">
+        <div class="about-kicker">OPEN SOURCE</div>
+        <h2>感谢每一个把表情包开源出来的人</h2>
+        <p>本页面只是接口索引与本地效果预览。表情模板、素材和生成逻辑的版权归各自原作者所有；如果这里的内容冒犯或侵犯了你的权益，请联系删除。</p>
+      </section>
+
+      <section class="credit-list">
+        <article class="credit">
+          <div class="credit-top">
+            <span class="credit-tag">核心项目</span>
+            <span class="credit-license">MIT / 以仓库为准</span>
+          </div>
+          <h3>MemeCrafters / meme-generator</h3>
+          <p>本地表情生成的核心引擎、模板体系与大部分表情素材来源。MemeAPI 的表情渲染基于它运行。</p>
+          <a class="credit-link" href="https://github.com/MemeCrafters/meme-generator/" target="_blank" rel="noopener noreferrer">github.com/MemeCrafters/meme-generator →</a>
+        </article>
+
+        <article class="credit">
+          <div class="credit-top">
+            <span class="credit-tag">扩展模板</span>
+            <span class="credit-license">以仓库为准</span>
+          </div>
+          <h3>MemeCrafters / meme-generator-contrib</h3>
+          <p>补充的表情模板包，包含 contrib 目录中的扩展表情。</p>
+          <a class="credit-link" href="https://github.com/MemeCrafters/meme-generator-contrib" target="_blank" rel="noopener noreferrer">github.com/MemeCrafters/meme-generator-contrib →</a>
+        </article>
+
+        <article class="credit">
+          <div class="credit-top">
+            <span class="credit-tag">扩展模板</span>
+            <span class="credit-license">以原作者声明为准</span>
+          </div>
+          <h3>tudou-meme</h3>
+          <p>本地扩展表情包，提供额外的中文表情模板。</p>
+        </article>
+
+        <article class="credit">
+          <div class="credit-top">
+            <span class="credit-tag">运行环境</span>
+            <span class="credit-license">开源生态</span>
+          </div>
+          <h3>Python · Flask · Pillow · AstrBot</h3>
+          <p>Web 渲染服务、图像处理与 QQ 机器人接入所使用的开源运行环境。</p>
+          <a class="credit-link" href="https://github.com/AstrBotDevs/AstrBot" target="_blank" rel="noopener noreferrer">AstrBot →</a>
+        </article>
+      </section>
+
+      <section class="notice">
+        <h3>使用说明</h3>
+        <p>本站点不存储用户头像、不提供在线生成服务，只展示本地已配置接口的说明和预览缩略图。实际生成在 MemeAPI 本机完成。</p>
+        <p>转载请注明来源，并遵守上游项目的开源许可证与素材使用条款。</p>
+      </section>
+    </div>
+
+    <footer class="foot">
+      <a href="index.html">← 返回接口列表</a> · MemeAPI 接口说明· 感谢开源
+    </footer>
+  </main>
+</div>
+<script>
+(function(){
+  const root=document.documentElement;
+  const saved=localStorage.getItem('meme-doc-theme');
+  if(saved) root.dataset.theme=saved;
+  document.getElementById('theme').onclick=function(){
+    const next=root.dataset.theme==='dark'?'light':'dark';
+    root.dataset.theme=next; localStorage.setItem('meme-doc-theme',next);
+  };
+})();
+</script>
+</body>
+</html>

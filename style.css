@@ -87,3 +87,29 @@ button,input{font:inherit}
   .hero h1{font-size:21px}
   .grid{grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
 }
+
+.nav-link{display:block;padding:10px 12px;border-radius:8px;color:var(--dim);text-decoration:none;font-size:12px}
+.nav-link:hover{background:var(--surface2);color:var(--text)}
+.nav-link.active{background:var(--border);color:var(--text);font-weight:700}
+.about-link{display:block;color:var(--dim);text-decoration:none;font-size:11px;padding:0 8px 8px}
+.about-link:hover{color:var(--accent)}
+.foot a{color:var(--dim);text-decoration:none}
+.foot a:hover{color:var(--accent)}
+.about-wrap{padding-top:24px;max-width:980px}
+.about-hero{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:24px;margin-bottom:16px;box-shadow:var(--shadow)}
+.about-kicker{font-size:10px;letter-spacing:2px;color:var(--accent);font-weight:800;margin-bottom:8px}
+.about-hero h2{margin:0 0 10px;font-size:20px}
+.about-hero p{margin:0;color:var(--dim);font-size:12px;line-height:1.9}
+.credit-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.credit{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;box-shadow:var(--shadow)}
+.credit-top{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:10px}
+.credit-tag{font-size:10px;color:var(--accent);border:1px solid color-mix(in srgb,var(--accent) 40%,var(--border));padding:2px 7px;border-radius:999px}
+.credit-license{font-size:10px;color:var(--label)}
+.credit h3{margin:0 0 8px;font-size:14px}
+.credit p{margin:0 0 12px;color:var(--dim);font-size:11px;line-height:1.75}
+.credit-link{color:var(--accent2);font-size:11px;text-decoration:none;word-break:break-all}
+.credit-link:hover{text-decoration:underline}
+.notice{margin-top:16px;background:var(--surface2);border:1px solid var(--border);border-radius:12px;padding:18px}
+.notice h3{margin:0 0 8px;font-size:13px}
+.notice p{margin:0 0 6px;color:var(--dim);font-size:11px;line-height:1.8}
+@media (max-width:900px){.sidebar-foot{display:block}.about-link{padding-top:4px}}
