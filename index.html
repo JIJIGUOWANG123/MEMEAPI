@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MemeAPI 接口说明</title>
+<link rel="icon" href="assets/logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <img src="assets/logo.png" alt="MemeAPI" class="logo">
+      <div><div class="brand-title">MemeAPI</div><div class="brand-sub">接口说明</div></div>
+    </div>
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input id="search" type="search" placeholder="搜索指令 / 功能 / 关键词" autocomplete="off">
+    </div>
+    <nav id="nav" class="nav"></nav>
+    <div class="sidebar-foot">
+      <div id="count" class="count"></div>
+      <div id="updated" class="updated"></div>
+    </div>
+  </aside>
+  <main class="main">
+    <header class="hero">
+      <div>
+        <h1>MemeAPI <span>接口说明</span></h1>
+        <p class="sub">本地表情包 / 视图 / 本机 / 外部接口。发送对应指令即可使用；带 @ 的接口请 @ 对方或填写 QQ 号。</p>
+      </div>
+      <button id="theme" class="theme" title="切换深浅色">◐</button>
+    </header>
+    <div id="content" class="content"></div>
+    <div id="empty" class="empty" hidden>没有找到匹配的接口</div>
+    <footer class="foot">MemeAPI · 本地表情渲染服务 · 指令不区分大小写（英文指令需在消息开头）</footer>
+  </main>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
