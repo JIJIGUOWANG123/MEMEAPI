@@ -40,10 +40,14 @@ python build_interface_docs.py       # 重新生成 data.js
 
 ## GitHub Pages
 
-上传后到仓库 **Settings → Pages**：
+把 `静态网页` 里的**内容**上传到仓库根目录（让 `index.html` 直接在仓库根），然后：
 
 - Source: `Deploy from a branch`
 - Branch: `main`
-- Folder: `/静态网页`
+- Folder: `/(root)`
 
-保存后 GitHub 会给出访问地址。
+访问地址形如：
+
+```text
+https://jijiguowang123.github.io/MEMEAPI/
+```

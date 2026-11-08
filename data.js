@@ -1,5 +1,5 @@
 window.MEME_DOC = {
-  "updated": "2026-11-08 21:42:53",
+  "updated": "2026-11-08 22:25:26",
   "total": 457,
   "categories": [
     {
@@ -9,7 +9,12 @@ window.MEME_DOC = {
       "items": [
         {
           "cmd": "3p",
-          "aliases": [],
+          "aliases": [
+            "狂草",
+            "狂日",
+            "狂撅",
+            "狂干"
+          ],
           "kind": "双人表情",
           "params": "@一个人 / @两个人",
           "usage": "3p @甲 @乙",
