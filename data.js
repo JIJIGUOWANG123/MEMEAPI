@@ -1,6 +1,6 @@
 window.MEME_DOC = {
-  "updated": "2026-11-09 14:17:14",
-  "total": 463,
+  "updated": "2026-11-09 20:20:12",
+  "total": 466,
   "categories": [
     {
       "key": "meme",
@@ -3093,7 +3093,7 @@ window.MEME_DOC = {
           "kind": "图片表情",
           "params": "@一个人 + 文字（可不填）",
           "usage": "steam消息 @某人 游戏名",
-          "note": "头像用 @ 的人；游戏名可自定义，不填默认「黑神话：悟空」",
+          "note": "头像和昵称取自 @ 的人；游戏名可自定义，不填默认「黑神话：悟空」",
           "key": "steam_message",
           "preview": "previews/steam_message.jpg"
         },
@@ -4678,9 +4678,39 @@ window.MEME_DOC = {
           "note": "随机抽取本地目录中的文件",
           "key": "",
           "preview": "previews/iface_c45b36e1c7.jpg"
+        },
+        {
+          "cmd": "奶龙图片",
+          "aliases": [],
+          "kind": "随机图片",
+          "params": "无",
+          "usage": "奶龙图片",
+          "note": "随机抽取本地目录中的文件",
+          "key": "",
+          "preview": "previews/iface_2a77ccc49d.jpg"
+        },
+        {
+          "cmd": "黑丝图片",
+          "aliases": [],
+          "kind": "随机图片",
+          "params": "无",
+          "usage": "黑丝图片",
+          "note": "随机抽取本地目录中的文件",
+          "key": "",
+          "preview": "previews/iface_00c1264982.jpg"
+        },
+        {
+          "cmd": "白丝图片",
+          "aliases": [],
+          "kind": "随机图片",
+          "params": "无",
+          "usage": "白丝图片",
+          "note": "随机抽取本地目录中的文件",
+          "key": "",
+          "preview": "previews/iface_156d44ff57.jpg"
         }
       ],
-      "count": 3
+      "count": 6
     },
     {
       "key": "local",
