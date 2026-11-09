@@ -1,5 +1,5 @@
 window.MEME_DOC = {
-  "updated": "2026-11-08 23:02:22",
+  "updated": "2026-11-09 11:46:26",
   "total": 463,
   "categories": [
     {
@@ -129,10 +129,10 @@ window.MEME_DOC = {
         {
           "cmd": "我永远喜欢",
           "aliases": [],
-          "kind": "双人表情",
-          "params": "@一个人 / @两个人",
-          "usage": "我永远喜欢 @甲 @乙",
-          "note": "一个 @ 时：发送者 + 对方；两个 @ 时：第一个 + 第二个",
+          "kind": "图片表情",
+          "params": "@一个人 / QQ号",
+          "usage": "我永远喜欢 @某人",
+          "note": "把 @ 的人的头像/图片套进表情",
           "key": "always_like",
           "preview": "previews/always_like.jpg"
         },
@@ -1512,10 +1512,10 @@ window.MEME_DOC = {
         {
           "cmd": "急急国王",
           "aliases": [],
-          "kind": "双人表情",
-          "params": "@一个人 / @两个人",
-          "usage": "急急国王 @甲 @乙",
-          "note": "一个 @ 时：发送者 + 对方；两个 @ 时：第一个 + 第二个",
+          "kind": "图片表情",
+          "params": "@一个人 / QQ号",
+          "usage": "急急国王 @某人",
+          "note": "把 @ 的人的头像/图片套进表情",
           "key": "jiji_king",
           "preview": "previews/jiji_king.jpg"
         },
