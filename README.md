@@ -32,8 +32,9 @@
 在 `D:\MemeAPI\程序` 下运行：
 
 ```bash
-python build_interface_previews.py   # 重新生成表情缩略图
-python build_interface_docs.py       # 重新生成 data.js
+python build_interface_previews.py        # 重新生成表情缩略图
+python build_interface_other_previews.py  # 重新生成视图/本机/其他接口预览图
+python build_interface_docs.py            # 重新生成 data.js
 ```
 
 > 生成预览需要 MemeAPI 渲染服务（5099 端口）正在运行。  

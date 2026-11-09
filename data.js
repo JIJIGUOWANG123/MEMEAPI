@@ -1,5 +1,5 @@
 window.MEME_DOC = {
-  "updated": "2026-11-09 11:46:26",
+  "updated": "2026-11-09 14:17:14",
   "total": 463,
   "categories": [
     {
@@ -3091,9 +3091,9 @@ window.MEME_DOC = {
           "cmd": "steam消息",
           "aliases": [],
           "kind": "图片表情",
-          "params": "@一个人 / QQ号",
-          "usage": "steam消息 @某人",
-          "note": "把 @ 的人的头像/图片套进表情",
+          "params": "@一个人 + 文字（可不填）",
+          "usage": "steam消息 @某人 游戏名",
+          "note": "头像用 @ 的人；游戏名可自定义，不填默认「黑神话：悟空」",
           "key": "steam_message",
           "preview": "previews/steam_message.jpg"
         },
@@ -4657,7 +4657,7 @@ window.MEME_DOC = {
           "usage": "美女视频",
           "note": "随机抽取本地目录中的文件",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_bd7e2f2bb4.jpg"
         },
         {
           "cmd": "大肥鱼视频",
@@ -4667,7 +4667,7 @@ window.MEME_DOC = {
           "usage": "大肥鱼视频",
           "note": "随机抽取本地目录中的文件",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_c0ede2c976.jpg"
         },
         {
           "cmd": "大肥鱼图片",
@@ -4677,7 +4677,7 @@ window.MEME_DOC = {
           "usage": "大肥鱼图片",
           "note": "随机抽取本地目录中的文件",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_c45b36e1c7.jpg"
         }
       ],
       "count": 3
@@ -4699,7 +4699,7 @@ window.MEME_DOC = {
           "usage": "你没急吧",
           "note": "本机接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_e5c23f5571.jpg"
         },
         {
           "cmd": "外星人说",
@@ -4709,7 +4709,7 @@ window.MEME_DOC = {
           "usage": "外星人说 内容",
           "note": "本机接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_90ca0ef62a.jpg"
         },
         {
           "cmd": "天气",
@@ -4722,7 +4722,7 @@ window.MEME_DOC = {
           "usage": "天气 内容",
           "note": "本机接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_d48d8876d3.jpg"
         },
         {
           "cmd": "天气图片",
@@ -4735,7 +4735,7 @@ window.MEME_DOC = {
           "usage": "天气图片 内容",
           "note": "本机接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_3b1b237b3c.jpg"
         }
       ],
       "count": 4
@@ -4753,7 +4753,7 @@ window.MEME_DOC = {
           "usage": "报悲 内容",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_e5e92b1b8e.jpg"
         },
         {
           "cmd": "报喜",
@@ -4763,7 +4763,7 @@ window.MEME_DOC = {
           "usage": "报喜 内容",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_0216669107.jpg"
         },
         {
           "cmd": "随机小姐姐1",
@@ -4773,7 +4773,7 @@ window.MEME_DOC = {
           "usage": "随机小姐姐1",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_cdc625b5fd.jpg"
         },
         {
           "cmd": "随机小姐姐2",
@@ -4783,7 +4783,7 @@ window.MEME_DOC = {
           "usage": "随机小姐姐2",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_27d16c28c1.jpg"
         },
         {
           "cmd": "随机小姐姐3",
@@ -4793,7 +4793,7 @@ window.MEME_DOC = {
           "usage": "随机小姐姐3",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_27636bf2e5.jpg"
         },
         {
           "cmd": "随机电脑二次元",
@@ -4803,7 +4803,7 @@ window.MEME_DOC = {
           "usage": "随机电脑二次元",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_d1d2231a30.jpg"
         },
         {
           "cmd": "随机手机二次元",
@@ -4813,7 +4813,7 @@ window.MEME_DOC = {
           "usage": "随机手机二次元",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_1a45093af4.jpg"
         },
         {
           "cmd": "随机一言1",
@@ -4823,7 +4823,7 @@ window.MEME_DOC = {
           "usage": "随机一言1",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_68cb6f4fc2.jpg"
         },
         {
           "cmd": "随机一言2",
@@ -4833,7 +4833,7 @@ window.MEME_DOC = {
           "usage": "随机一言2",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_8bfb1f4e2b.jpg"
         },
         {
           "cmd": "随机一言3",
@@ -4843,7 +4843,7 @@ window.MEME_DOC = {
           "usage": "随机一言3",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_69ebfc7b8c.jpg"
         },
         {
           "cmd": "随机笑话",
@@ -4853,7 +4853,7 @@ window.MEME_DOC = {
           "usage": "随机笑话",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_80db9e19b0.jpg"
         },
         {
           "cmd": "随机土味情话",
@@ -4863,7 +4863,7 @@ window.MEME_DOC = {
           "usage": "随机土味情话",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_31ed6a1a83.jpg"
         },
         {
           "cmd": "随机小姐姐4",
@@ -4873,7 +4873,7 @@ window.MEME_DOC = {
           "usage": "随机小姐姐4",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_002c36baf4.jpg"
         },
         {
           "cmd": "随机黑丝",
@@ -4883,7 +4883,7 @@ window.MEME_DOC = {
           "usage": "随机黑丝",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_8784fb0502.jpg"
         },
         {
           "cmd": "随机小姐姐5",
@@ -4893,7 +4893,7 @@ window.MEME_DOC = {
           "usage": "随机小姐姐5",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_2ed88ea997.jpg"
         },
         {
           "cmd": "随机一言4",
@@ -4903,7 +4903,7 @@ window.MEME_DOC = {
           "usage": "随机一言4",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_425d8d3190.jpg"
         },
         {
           "cmd": "随机电脑美女",
@@ -4913,7 +4913,7 @@ window.MEME_DOC = {
           "usage": "随机电脑美女",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_1f7db60f15.jpg"
         },
         {
           "cmd": "随机手机美女",
@@ -4923,7 +4923,7 @@ window.MEME_DOC = {
           "usage": "随机手机美女",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_70c6b9ed31.jpg"
         },
         {
           "cmd": "随机竖屏二次元",
@@ -4933,7 +4933,7 @@ window.MEME_DOC = {
           "usage": "随机竖屏二次元",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_d9a6883d06.jpg"
         },
         {
           "cmd": "随机横屏二次元",
@@ -4943,7 +4943,7 @@ window.MEME_DOC = {
           "usage": "随机横屏二次元",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_91509a19cf.jpg"
         },
         {
           "cmd": "摸鱼人日历",
@@ -4953,7 +4953,7 @@ window.MEME_DOC = {
           "usage": "摸鱼人日历",
           "note": "外部接口",
           "key": "",
-          "preview": ""
+          "preview": "previews/iface_b5cec59cc5.jpg"
         }
       ],
       "count": 21
