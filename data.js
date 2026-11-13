@@ -1,6 +1,6 @@
 window.MEME_DOC = {
-  "updated": "2026-11-09 20:20:12",
-  "total": 466,
+  "updated": "2026-11-13 11:42:34",
+  "total": 468,
   "categories": [
     {
       "key": "meme",
@@ -3374,10 +3374,10 @@ window.MEME_DOC = {
           "aliases": [
             "坟前比耶"
           ],
-          "kind": "双人表情",
-          "params": "@一个人 / @两个人",
-          "usage": "上坟 @甲 @乙",
-          "note": "一个 @ 时：发送者 + 对方；两个 @ 时：第一个 + 第二个",
+          "kind": "图片表情",
+          "params": "@一个人 / QQ号",
+          "usage": "上坟 @某人",
+          "note": "把 @ 的人的头像/图片套进表情",
           "key": "tomb_yeah",
           "preview": "previews/tomb_yeah.jpg"
         },
@@ -4729,7 +4729,7 @@ window.MEME_DOC = {
           "usage": "你没急吧",
           "note": "本机接口",
           "key": "",
-          "preview": "previews/iface_e5c23f5571.jpg"
+          "preview": "previews/iface_5839067114.jpg"
         },
         {
           "cmd": "外星人说",
@@ -4739,7 +4739,7 @@ window.MEME_DOC = {
           "usage": "外星人说 内容",
           "note": "本机接口",
           "key": "",
-          "preview": "previews/iface_90ca0ef62a.jpg"
+          "preview": "previews/iface_63bd43cd32.jpg"
         },
         {
           "cmd": "天气",
@@ -4752,7 +4752,7 @@ window.MEME_DOC = {
           "usage": "天气 内容",
           "note": "本机接口",
           "key": "",
-          "preview": "previews/iface_d48d8876d3.jpg"
+          "preview": "previews/iface_dd5da73eac.jpg"
         },
         {
           "cmd": "天气图片",
@@ -4765,10 +4765,30 @@ window.MEME_DOC = {
           "usage": "天气图片 内容",
           "note": "本机接口",
           "key": "",
-          "preview": "previews/iface_3b1b237b3c.jpg"
+          "preview": "previews/iface_679c1edb7a.jpg"
+        },
+        {
+          "cmd": "打",
+          "aliases": [],
+          "kind": "图片接口",
+          "params": "无",
+          "usage": "打",
+          "note": "本机接口",
+          "key": "",
+          "preview": "previews/iface_06d5e6d60a.jpg"
+        },
+        {
+          "cmd": "煮汤",
+          "aliases": [],
+          "kind": "图片接口",
+          "params": "无",
+          "usage": "煮汤",
+          "note": "本机接口",
+          "key": "",
+          "preview": "previews/iface_2107306e8c.jpg"
         }
       ],
-      "count": 4
+      "count": 6
     },
     {
       "key": "other",
