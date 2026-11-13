@@ -1,5 +1,5 @@
 window.MEME_DOC = {
-  "updated": "2026-11-13 11:42:34",
+  "updated": "2026-11-13 11:54:18",
   "total": 468,
   "categories": [
     {
@@ -4766,29 +4766,9 @@ window.MEME_DOC = {
           "note": "本机接口",
           "key": "",
           "preview": "previews/iface_679c1edb7a.jpg"
-        },
-        {
-          "cmd": "打",
-          "aliases": [],
-          "kind": "图片接口",
-          "params": "无",
-          "usage": "打",
-          "note": "本机接口",
-          "key": "",
-          "preview": "previews/iface_06d5e6d60a.jpg"
-        },
-        {
-          "cmd": "煮汤",
-          "aliases": [],
-          "kind": "图片接口",
-          "params": "无",
-          "usage": "煮汤",
-          "note": "本机接口",
-          "key": "",
-          "preview": "previews/iface_2107306e8c.jpg"
         }
       ],
-      "count": 6
+      "count": 4
     },
     {
       "key": "other",
@@ -5004,9 +4984,29 @@ window.MEME_DOC = {
           "note": "外部接口",
           "key": "",
           "preview": "previews/iface_b5cec59cc5.jpg"
+        },
+        {
+          "cmd": "打",
+          "aliases": [],
+          "kind": "图片接口",
+          "params": "无",
+          "usage": "打",
+          "note": "外部接口",
+          "key": "",
+          "preview": "previews/iface_68c899768d.jpg"
+        },
+        {
+          "cmd": "煮汤",
+          "aliases": [],
+          "kind": "图片接口",
+          "params": "无",
+          "usage": "煮汤",
+          "note": "外部接口",
+          "key": "",
+          "preview": "previews/iface_12e382d0fe.jpg"
         }
       ],
-      "count": 21
+      "count": 23
     }
   ]
 };
